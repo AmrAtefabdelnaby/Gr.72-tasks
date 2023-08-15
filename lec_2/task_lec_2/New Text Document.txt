@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <hr>
+    <center>
+       <table>
+        <tr> <a href="">home</a> </tr>
+        <tr><img src="imges/nav-underline.png" alt=""></tr>
+        <tr> <a href="">contact</a> </tr>
+        <tr><img src="imges/nav-underline.png" alt=""></tr>
+        <tr> <a href="">about</a> </tr>
+        <tr><img src="imges/nav-underline.png" alt=""></tr>
+        <tr> <a href="">product</a> </tr>
+        <tr><img src="imges/nav-underline.png" alt=""></tr>
+       </table> 
+
+    </center>
+    <hr>
+    
+    <marquee behavior="" direction="">
+        <img src="imges/LB-DOD-en.jpg" alt="">
+        <img src="imges/mar2.png" alt="">
+        <img src="imges/mar3.jpg" alt="">
+    </marquee>
+    <Center><img src="imges/14888690743950163267.jpg" width="1580pt" alt=""></Center>
+
+    <table>
+        <tr>
+            <td><img src="imges/watch.jpg" alt="" width="620pt"></td>
+            <td><video src="imges/Premium jewellery product video [demo] wristwatch (1).mp4" width="930pt" controls autoplay muted></video></td>
+        </tr>
+
+        <tr>
+            <td colspan="2">some text</td>
+        </tr>
+
+        <tr>
+            <td colspan="2"> <img src="imges/list1.jpg" alt="" width="1575pt"></td>
+        </tr>
+
+        <tr>
+            <td colspan="2">some text</td>
+        </tr>
+
+        <tr>
+            <td colspan="2"> <img src="imges/list2.jpg" alt="" width="1575pt"></td>
+        </tr>
+
+        <tr>
+            <td colspan="2">some text</td>
+        </tr>
+
+        <tr>
+            <td colspan="2"> <img src="imges/list3.jpg" alt="" width="1575pt"></td>
+        </tr>
+
+    </table>
+    <hr>
+    <center>
+        <h1>text</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus optio quisquam quas eaque, 
+            vel animi provident aperiam aliquam officia est molestias! Facilis eligendi ea, 
+            iure est iste eius odit illum! Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus optio quisquam quas eaque, 
+            vel animi provident aperiam aliquam officia est molestias! Facilis eligendi ea, 
+            iure est iste eius odit illum!</p>
+    </center>
+    <hr>
+    <center>
+        <h1> Start selling online</h1>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/awnn-bqV_Tw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+    </center>
+
+    <table>
+        <tr>
+            <td>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Suscipit ipsam aperiam dolorum saepe. Cupiditate voluptatibus quibusdam itaque et ab consequuntur incidunt, dolorum dolore pariatur. Non officiis dicta quis. Velit, eveniet? Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem suscipit beatae similique molestiae nam, ea sapiente obcaecati ex earum modi omnis esse, vitae rerum numquam voluptates pariatur qui voluptas debitis. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequuntur consectetur, odit officiis animi nesciunt cum iure atque natus doloremque tenetur praesentium, in, unde ut magni exercitationem ipsa et aut ipore pariatur. Non officiis dicta quis. Velit, eveniet? Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem suscipit beatae similique molestiae nam, ea sapiente obcaecati ex earum modi omnis esse, vitae rerum numquam voluptates pariatur qui voluptas debitis. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequuntur consectetur, odit officiis animi nesciunt cum iure atque natus doloremque tenetur praesentium, in, unde ut magni exercitationem ipsa et aut ipsam</td>
+            <td rowspan="2"> <img src="imges/istockphoto-924508948-2048x2048.jpg" alt="" width="650pt"></td>
+        </tr>
+        <tr>
+            <td>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Suscipit ipsam aperiam dolorum saepe. Cupiditate voluptatiore pariatur. Non officiis dicta quis. Velit, eveniet? Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem suscipit beatae similique molestiae nam, ea sapiente obcaecati ex earum modi omnis esse, vitae rerum numquam voluptates pariatur qui voluptas debitis. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequuntur consectetur, odit officiis animi nesciunt cum iure atque natus doloremque tenetur praesentium, in, unde ut magni exercitationem ipsa et aut ipbus quibusdam itaque et ab consequuntur incidunt, dolorum dolore pariatur. Non officiis dicta quis. Velit, eveniet? Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem suscipit beatae similique molestiae nam, ea sapiente obcaecati ex earum modi omnis esse, vitae rerum numquam voluptates pariatur qui voluptas debitis. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequuntur consectetur, odit officiis animi nesciunt cum iure atque natus doloremque tenetur praesentium, in, unde ut magni exercitationem ipsa et aut ipsam</td>
+        </tr>
+    </table>
+
+    <hr>
+    <center>
+        <h1>Contact</h1>
+        <br>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d27634.7320001431!2d31.391200711958202!3d30.027059101848607!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14583cfd5e540799%3A0x4a397398c27f4413!2sCairo%20Festival%20City%2C%20Nasr%20City%2C%20Cairo%20Governorate!5e0!3m2!1sen!2seg!4v1692127492696!5m2!1sen!2seg" width="1550" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </center>
+    
+
+</body>
+</html>
