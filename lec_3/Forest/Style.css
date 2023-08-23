@@ -1,5 +1,5 @@
 body{
-    background: linear-gradient(0deg, rgba(0, 0, 0, 0.54), rgba(10, 2, 2, 0.69)), url(../img/bg-masthead.jpg);
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.924), rgba(10, 2, 2, 0.69)), url(../img/bg-masthead.jpg);
 
     background-attachment: fixed;
     background-repeat: no-repeat;
@@ -10,10 +10,9 @@ body{
 }
 
 .y{
-    width: 1000pt;
-    height: 450pt;
     color: white;
-
-    
+    position: absolute;
+    bottom: 10%;
+    right: 30%;  
 }
 
