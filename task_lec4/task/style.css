@@ -1,0 +1,60 @@
+nav{
+    width: 200px;
+    display: inline;
+    text-align: center;
+    background-color: rgba(32, 32, 33, 0.427);
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border: 1px solid;
+    border-radius: 3%;
+    margin-top: 5px;
+
+}
+
+a{
+    text-decoration: none;
+    margin: 3px 130px;
+    color: white;
+}
+
+body{
+    background-image: url(../images/background-01.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 459px;
+    padding: 3px;
+    margin-bottom: 10px;
+}
+
+.box{
+    width: 400px;
+    color: white;
+     padding: 8px 26px;
+}
+
+.button{
+    text-align: center;
+    width: 100px;
+    height: 32px;
+    border: 1px solid green;
+    border-radius: 27%;
+    background-color: green;
+    color: white;
+    margin-left: 254px;
+}
+
+
+.inner div{
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    height: 50px;
+    padding: 29px;
+    margin-left: -59px;
+}
+
+.inner{
+    margin-top: 92px;
+    margin-left: 46px;
+    margin-right: -13%;
+}
+
