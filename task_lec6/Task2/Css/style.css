@@ -1,0 +1,73 @@
+*{
+    box-sizing: border-box;
+}
+
+.outter{
+    width: 70%;
+    height: 550px;
+    background-color: rgb(160, 150, 150);
+    border: 1px solid black;
+    margin: 5% auto;
+    padding: 5px;
+}
+
+
+.nav{
+    width: 100%;
+    height: 40px;
+    background-color: gray;
+    color: blue;
+}
+
+.nav a{
+    float: left;
+    margin-left: 20%;
+    text-decoration: none;
+    line-height: 40px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#person1 , #person2 , #person3 , #person4 , #person5{
+    width: calc(94% / 5);
+    background-color: darkgrey;
+    color: black;
+    text-align: center;
+    float: left;
+    margin-left: 1%;
+    margin-top: 2%;
+    padding: 2px;
+    display: none;
+
+}
+
+img{
+    width: 100%;
+    border-radius: 50%;
+}
+
+
+
+
+#person1:hover{
+    box-shadow: 4px 2px 8px 3px rgb(72, 70, 70) ;
+}
+
+#person2:hover{
+    box-shadow: 4px 2px 8px 3px rgb(70, 69, 69) ;
+}
+
+#person3:hover{
+    box-shadow: 4px 2px 8px 3px rgb(70, 69, 69) ;
+}
+
+#person4:hover{
+    box-shadow: 4px 2px 8px 3px rgb(70, 69, 69) ;
+}
+
+#person5:hover{
+    box-shadow: 4px 2px 8px 3px rgb(70, 69, 69) ;
+}
+
+:target{
+    display: inline-block;
+}
