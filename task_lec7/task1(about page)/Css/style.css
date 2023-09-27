@@ -1,0 +1,440 @@
+*{
+    box-sizing: border-box;
+    margin: 0%;
+}
+
+.nav{
+    width: 100%;
+    height: 50px;
+    color: aliceblue;
+    margin: 1%;
+    display: flex;
+    flex-flow: row nowrap;
+    position: absolute;
+
+}
+
+.menus{
+    position: relative;
+    right: -548px;
+    top: 16px;
+}
+
+.logo{
+    position: relative;
+    right: -104px;
+}
+
+.nav .menus a{
+    margin-left:50px ;
+    text-decoration: none;
+    font-size: 20px;
+    line-height: 18px;
+    font-family: 'Anton', sans-serif;
+    font-family: 'Bebas Neue', sans-serif;
+}
+
+a:hover{
+    color: lightgray;
+}
+
+.header{
+    margin-top:4%;
+    width: 100%;
+    height: 400px;
+    background-image:url(../imgs/about-us-page-heading.jpg);
+    background: cover no-repeat;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: start;
+    align-items: center;
+    
+}
+
+.header .text{
+    margin-top: 4%;
+}
+
+
+.header .text{
+    width: 30%;
+    text-align: center;
+    font-family: 'Anton', sans-serif;
+    font-family: 'Bebas Neue', sans-serif;
+    color: white;
+}
+
+.header .text .row1 {
+    font-size: 60px;
+}
+
+.box1{
+    width: 95%;
+    height: 400px;
+    margin: auto;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 4%;
+    padding-bottom: 4%;
+    border-bottom: 1px black dotted;
+}
+
+.box1 .pic{
+    width: 40%;
+    height: 100%;
+
+}
+
+.box1 .pic img{
+    width: 100%;
+    height: 100%;
+    
+}
+
+.box1 .text{
+    width: 40%;
+    height: 100%;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-between;
+}
+
+.box1 .text .row1{
+    font-size: 50px;
+    font-family: 'Anton', sans-serif;
+    font-family: 'Bebas Neue', sans-serif;
+    color: black;
+    
+}
+
+.box1 .text .row2{
+    font-size: 20px; 
+    color: gray;  
+}
+
+.box1 .text .row3{
+    border-bottom: 1px black dotted;
+    padding-bottom: 2%; 
+    
+}
+
+.box1 .text span{
+    display: flex;
+    flex-flow: row nowrap;
+    color: black;
+    margin-left: 2%;
+    font-size: 25px;
+}
+
+.box1 .text span::before{
+    font-family: FontAwesome;
+    content: "\f10d";
+    position: relative;
+    top: -7px;
+    right: 8px;
+    width: 69px;
+    height: 54px;
+    display: flex;
+    font-size: 60px;
+
+    
+}
+
+.box1 .icons{
+    padding-top: 2%;
+    font-size: 30px;
+}
+
+.content {
+    width: 99%;
+    height: 717px;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-evenly;
+    align-items: center;
+    align-content: space-evenly;
+    border-bottom: 1px dotted black;
+    padding-bottom: 2%;
+
+}
+
+.content .text{
+    width: 100%;
+    margin-left: 7%;
+    text-align: center;
+
+}
+
+.content .text .row1{
+   font-size: 40px;
+    color: black;
+    font-family: 'Anton', sans-serif;
+    font-family: 'Bebas Neue', sans-serif;
+}
+
+.content .text .row2{
+    font-size: 18px;
+    color: lightslategray;
+    font-family: 'Anton', sans-serif;
+    font-family: 'Bebas Neue', sans-serif;
+}
+
+
+.content .items{
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+
+.content .items .item:hover{
+    background-color: #49494942;
+    padding: 0.5%;
+}
+
+
+
+.content .items .item{
+    width: calc(95% / 3.25);
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.content .items .item img{
+    width: 100%;
+    height: 500px;
+    
+}
+
+.content .items .item .job-title{
+    margin-top: 1%;
+    width: 100%;
+    text-align: center;
+}
+
+.content .items .item .member-name{
+    margin-top: 1%;
+    width: 100%;
+    text-align: center;
+    font-size: 25px;
+    font-family: 'Anton', sans-serif;
+    font-family: 'Bebas Neue', sans-serif;
+}
+
+
+.content2 {
+    width: 99%;
+    height: 600px;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-evenly;
+    align-items: center;
+    align-content: space-evenly;
+    border-bottom: 1px dotted black;
+    padding-bottom: 2%;
+    margin-top: 4%;
+
+}
+
+.content2 .text{
+    width: 100%;
+    margin-left: 7%;
+    text-align: center;
+
+}
+
+.content2 .text .row1{
+    font-size: 40px;
+    color: black;
+    font-family: 'Anton', sans-serif;
+    font-family: 'Bebas Neue', sans-serif;
+}
+
+.content2 .text .row2{
+    font-size: 18px;
+    color: lightslategray;
+    font-family: 'Anton', sans-serif;
+    font-family: 'Bebas Neue', sans-serif;
+}
+
+.content2 .items{
+    width: 95%;
+    height: 400px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-evenly;
+    margin-top: 3%;
+}
+
+.content2 .items .item{
+    width: calc(95% / 4);
+    height: 384px;
+    border: 1px solid #00000029;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 1%;
+    box-shadow: 3px 3px gray;
+
+}
+
+.content2 .items .item img{
+    width: 100%;
+    height: 60%;
+}
+
+.content2 .items .item .row1{
+    font-size: 40px;
+    color: black;
+    font-family: 'Anton', sans-serif;
+    font-family: 'Bebas Neue', sans-serif;
+}
+
+.content2 .items .item .row2{
+    text-align: center;
+    color: lightslategray;
+
+}
+
+.box3{
+    border-top: 1px dotted black;
+    padding-top: 2%;
+    width: 100%;
+    height: 300px;
+    display: flex;
+    flex-flow: row nowrap;
+    margin-bottom: 2%;
+    border: none;
+}
+
+.box3 .content2{
+    width: 53%;
+    height: 300px;
+    display: flex;
+    flex-flow:column nowrap ;
+    justify-content: start;
+    align-items: flex-start;
+    align-content:start;
+    margin-left: 2%;
+    margin-top: 2%;
+    border: none;
+
+
+}
+
+.box3 .content2 .fields2{
+    width: 69%;
+    height: 30px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-evenly;
+    margin-top: 7%;
+    margin-left: -4%;
+}
+
+.box3 .content2 .fields2 a{
+    font-size: 30px;
+}
+
+.box3 .content2 h1{
+    margin: 0px;
+}
+
+.box5 .content2 h5{
+    margin: 0px;
+    color: grey;
+}
+
+.content3{
+    width: 60%;
+    height: 300px;
+    display: flex;
+    flex-flow:column wrap ;
+    justify-content: space-around;
+    align-items: center;
+    align-content:space-evenly;
+
+}
+
+.info{
+    width: 20%;
+    height: 30%;
+    text-align: center;
+    display: flex;
+    flex-flow: column;
+    justify-content: flex-start;
+
+}
+
+.info h2{
+    margin: 0px;
+}
+
+.info h5{
+    margin: 0px;
+    color: grey;
+}
+
+
+.footer{
+    width: 100%;
+    height: 490px;
+    background-color: #494949;
+    margin-top: 2%;
+    color: white;
+    display: flex;
+    flex-flow: row;
+    justify-content: space-evenly;
+
+}
+
+.footer .foot a{
+    color: white;
+    text-decoration: none;
+}
+.foot{
+    width: calc(90% / 6);
+    height: 300px;
+    color: white;
+    margin-top: 2%;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: inherit;
+    align-items: flex-start;
+
+
+}
+
+
+.webs{
+    height: 106px;
+    margin-top: -7%;
+    text-align: center;
+    color: white;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-evenly;
+    align-items: center;
+    border-top: 1px white solid;
+}
+
+.webs .icons{
+    width: 154px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+
+    
+}
+
+.webs .icons a{
+    color: aquamarine;
+}
