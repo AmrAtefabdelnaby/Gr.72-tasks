@@ -1,0 +1,429 @@
+*{
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Anton', sans-serif;
+    font-family: 'Bebas Neue', sans-serif;
+    font-family: 'DM Serif Display', serif;
+}
+
+.contactheader{
+    width: 100%;
+    height: 40px;
+    background-color:rgb(30, 97, 90) ;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+
+}
+body{
+    background-color: rgb(244, 241, 241);
+}
+.contact{
+    width: 30%;
+    height: 20px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-left: 7%;
+}
+
+.contactheader .contact .email{
+    width: 40%;
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    margin-left: 10%;
+    text-decoration: none;
+}
+
+a{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.contactheader .contact .phone{
+    width: 40%;
+    display: flex;
+    flex-flow: row nowrap;
+    margin-left: 1%;
+    align-items: center;
+
+
+}
+
+.contactheader .social{
+    width: 10%;
+    height: 20px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-right: 7%;
+}
+
+.nav{
+    width: 100%;
+    height: 60px;
+    background-color: rgb(36, 116, 108);
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.nav .logo{
+    width: 17%;
+    height: 50px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav .logo img{
+    width: 40%;
+    height: 50px;
+}
+
+.nav .pages{
+    width: 50%;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.nav .pages a:hover{
+    background-color: #888888;
+    padding: 2%;
+}
+
+.dropbtn {
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    background-color: rgb(36, 116, 108);
+  }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+  }
+  
+  .dropdown-content a {
+    color: rgb(12, 11, 11);
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+    
+  .dropdown:hover .dropdown-content {
+    display: block;
+}
+  
+  .dropdown:hover .dropbtn {
+    background-color: #888888;
+    text-align: center;
+}
+
+
+.box1{
+    margin-top: 3%;
+    width: 100%;
+    height: 300px;
+    background-color: rgb(36, 116, 108);
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.box1 .row1{
+    font-size: 30px;
+    color: #ffffff;
+}
+
+
+.box1 .row2{
+    font-size: 15px;
+    color: #ffffff;
+}
+
+.box1 .inner{
+    width: 40%;
+    height: 200px;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: start;
+    align-items: center;
+    text-align: center;
+}
+
+.box2{
+    background-color: rgb(199, 195, 195);
+    width: 100%;
+    height: 50px;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.box2 .inner{
+    width: 70%;
+    height: 50px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: start;
+    align-items: center;
+}
+
+.box2 .inner .home{
+    color: rgb(36, 116, 108);
+    
+}
+.box2 .inner p{
+color: red;
+font-weight: bolder;
+}
+
+.box2 .inner .blog{
+    color: black;
+}
+
+
+
+.box3 .posts{
+    width: 100%;
+    height: 800px;
+    background-color: lightgray;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.posts{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.posts .row1{
+    font-size: 30px;
+    color: black;
+}
+
+.posts hr{
+    width: 5%;
+}
+
+.posts .row2{
+    color: whitesmoke;
+    font-size: 15px;
+
+}
+
+.posts .innerbox{
+    width: 90%;
+    height: 800px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.posts .innerbox .post{
+    width: calc(90% / 3);
+    background-color: white;
+    height: 350px;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-around;
+    align-items: start;
+    border: 1px solid gray;
+    border-radius: 20px;
+    padding: 1%;
+    transition: all 1s ease-in-out 0.5s;
+    
+}
+
+.posts .innerbox .post .postpic{
+    width: 100%;
+    height: 140px;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: start;
+    align-items: start;
+
+}
+
+
+.posts .innerbox .post img{
+    width: 100%;
+    height: 150px;
+    border-radius: 20px;
+    margin-top: -4%;
+    transition: all 1s ease-in-out 0.5s;
+
+}
+
+.posts .innerbox .post .title{
+    
+    color: gray;
+    font-size: 15px;
+}
+
+.posts .innerbox .post:hover{
+    transform: scale(1.2);
+}
+
+.posts .innerbox .post:hover img{
+    transform: scale(1.1);
+}
+
+
+.posts .innerbox .post .text{
+    font-size: 20px;
+    color: black;
+    margin-bottom: 7%;
+}
+
+.posts .innerbox .post .person{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-evenly;
+    align-items: start;
+}
+
+
+.posts .innerbox .post .person img{
+    width: 30%;
+    height: 80px;
+    border-radius: 50%;
+}
+
+.posts .innerbox .post .person .row1{
+    font-size: 17px;
+    color: black;
+}
+
+.posts .innerbox .post .person .row2{
+    font-size: 14px;
+    color: gray;
+}
+
+.slider{
+    width: 100%;
+    height: 10px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.slider .inner{
+    width: 10%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.slider a{
+    width: 20px;
+    height: 25px;
+    color: black;
+    text-align: center;
+    padding: 4%;
+}
+
+.slider a:hover{
+    background-color: rgb(36, 116, 108);
+    
+}
+
+
+.footer{
+    margin-top: 2%;
+    width: 100%;
+    height: 450px;
+    background-color: #24746c;
+    color: white;
+    display: flex;
+    flex-flow: row;
+    justify-content: space-evenly;
+
+}
+
+.f1 .icons{
+    width: 154px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+
+    
+}
+
+.f1 .icons a{
+    color: rgb(255, 255, 255);
+}
+
+.footer .foot a{
+    color: white;
+    text-decoration: none;
+}
+.foot{
+    width: calc(90% / 6);
+    height: 300px;
+    color: white;
+    margin-top: 2%;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: inherit;
+    align-items: flex-start;
+
+
+}
+
+.f1 img{
+    width: 50%;
+    height: 30px;
+}
+
+.webs{
+    height: 53px;
+    text-align: center;
+    color: white;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: -4%;
+}
+
+.webs .icons{
+    width: 154px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+
+    
+}
+
+.webs .icons a{
+    color: aquamarine;
+}

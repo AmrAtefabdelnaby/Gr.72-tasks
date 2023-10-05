@@ -1,0 +1,1378 @@
+*{
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Anton', sans-serif;
+    font-family: 'Bebas Neue', sans-serif;
+    font-family: 'DM Serif Display', serif;
+}
+
+.contactheader{
+    width: 100%;
+    height: 40px;
+    background-color:rgb(30, 97, 90) ;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+
+}
+body{
+    background-color: rgb(244, 241, 241);
+}
+.contact{
+    width: 30%;
+    height: 20px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-left: 7%;
+}
+
+.contactheader .contact .email{
+    width: 40%;
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    margin-left: 10%;
+    text-decoration: none;
+}
+
+a{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.contactheader .contact .phone{
+    width: 40%;
+    display: flex;
+    flex-flow: row nowrap;
+    margin-left: 1%;
+    align-items: center;
+
+
+}
+
+.contactheader .social{
+    width: 10%;
+    height: 20px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-right: 7%;
+}
+
+.nav{
+    width: 100%;
+    height: 60px;
+    background-color: rgb(36, 116, 108);
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.nav .logo{
+    width: 17%;
+    height: 50px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav .logo img{
+    width: 40%;
+    height: 50px;
+}
+
+.nav .pages{
+    width: 50%;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.nav .pages a:hover{
+    background-color: #888888;
+    padding: 2%;
+}
+
+.dropbtn {
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    background-color: rgb(36, 116, 108);
+  }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+  }
+  
+  .dropdown-content a {
+    color: rgb(12, 11, 11);
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+    
+  .dropdown:hover .dropdown-content {
+    display: block;
+}
+  
+  .dropdown:hover .dropbtn {
+    background-color: #888888;
+    text-align: center;
+}
+.outter{
+    overflow: hidden;
+}
+.box1{
+    width: 100%;
+    height: 500px;
+    background-color: rgb(36, 116, 108);
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.box1 .lsection{
+    width: 40%;
+    height: 300px;
+    background-color: rgb(36, 116, 108);
+    color: #ffffff;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: -12%;
+    overflow: hidden;
+    transition: all;
+    animation: appearance 2s ease-in-out 0.5s ;
+
+}
+
+@keyframes appearance {
+    0%{margin-top: 40%; background-color: transparent;}
+    20%{margin-top: 20%;background-color: transparent;}
+    40%{margin-top: 10%;background-color: transparent;}
+    60%{margin-top: 0%;background-color: transparent;}
+    
+}
+
+.box1 .lsection .text{
+
+    transition: all;
+    animation: appearance 2s ease-in-out 0.5s ;
+}
+
+.box1 .lsection .text .row1{
+    font-size: 60px;
+    font-weight: bold;
+}
+
+
+.box1 .lsection .buttons{
+    width: 80%;
+    height: 40px;
+    text-align: center;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-evenly;
+    transition: all;
+    animation: appearance 2s ease-in-out 0.5s ;
+}
+
+.box1 .lsection .buttons .b1{
+    width: 30%;
+    background-color:rgb(44, 139, 130) ;
+    border: 1px solid rgb(89, 141, 136);
+    color: #ffffff;
+    border-radius: 20px;
+}
+
+.box1 .lsection .buttons .b2{
+    width: 30%;
+    background-color:rgb(36, 116, 108);
+    border: none;
+    color: #ffffff;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.box1 .lsection .buttons .b2 i{
+    font-size: 25px;
+}
+ 
+
+.box1 .rsection {
+    width: 52%;
+    height: 500px;
+    display: flex;
+    flex-flow: row nowrap;
+    
+}
+
+.box1 .rsection img{
+    transition: all;
+    animation: appearance 2s ease-in-out 0.5s ;
+}
+
+.box2{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-evenly;
+    align-items: end;
+}
+
+.box2 .box{
+    width: calc(95% / 5);
+    height: 249px;
+    background-color: rgb(44, 139, 130);
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-evenly;
+    animation: slidebox 2s ease-in-out 0.5s;
+}
+
+@keyframes slidebox {
+    0%{margin-bottom: -20%;}
+    20%{margin-bottom: -15%;}
+    40%{margin-bottom: -10%;}
+    60%{margin-bottom: -5%;}
+    80%{margin-bottom: 0%;}
+}
+
+
+.box2 .box i{
+    font-size: 30px;
+    text-align: center;
+}
+
+.box2 .box p{
+    font-size: 20px;
+    color: #ffffff;
+    text-align: center;
+}
+
+.container{
+    overflow: hidden;
+    height: 850px;
+    position: relative;
+}
+
+
+
+.box3{
+    position: relative;
+    animation: slider 2s ease-in-out 0.5s ;
+}
+
+@keyframes slider {
+    0%{ top:850px }
+    20%{ top:650px}
+    40%{top:450px}
+    60%{top:250px}
+    80%{top:0px}
+}
+
+.box3 .part1 {
+    margin-top: 2%;
+    width: 100%;
+    height: 150px;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.box3 .part1 .row1{
+    text-decoration: underline rgb(36, 116, 108);
+    font-size: 30px;
+    color: black;
+}
+
+.box3 .part1 .row2{
+    font-size: 17px;
+    color: #888888;
+}
+
+.box3 .part2{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.box3 .part2 .lsection{
+    width: calc(90% / 2);
+    height:450px ;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-evenly;
+    align-items: start;
+    padding: 1%;
+
+} 
+
+.box3 .part2 .lsection .row1{
+    font-size: 30px;
+    
+}
+
+.box3 .part2 .lsection img{
+    width: 70%;
+    height: 250px;
+    border-radius: 20px;
+    margin-bottom: 26px;
+    margin-top: 26px;
+
+}
+
+.box3 .part2 .lsection .row2{
+    font-size: 17px;
+    color: #888888;    
+}
+
+.box3 .part2 .rsection{
+    width: calc(90% / 2);
+    height:500px ;
+    padding: 1%;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-evenly;
+    align-items: start;
+}
+
+.box3 .part2 .rsection img{
+    width: 70%;
+    height: 250px;
+    border-radius: 20px;
+    margin-top: 26px;
+
+}
+
+.box3 .part2 .rsection .row1{
+    font-size: 17px;
+    color: #888888; 
+}
+
+.box3 .part2 .rsection .row2{
+    font-size: 17px;
+    width: 40%;
+    color: #888888;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-evenly;
+    text-align: start;
+    line-height: 10px;
+}
+
+
+.box3 .part3{
+    width: 100%;
+    height: 200px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.box3 .part3 img{
+    width: calc(95% / 15);
+    height: 50px;
+}
+
+.box4 {
+    width: 100%;
+    height: 400px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.box4 img{
+    width: 45%;
+    height: 300px;
+}
+
+.box4 .status{
+    width: 45%;
+    height: 300px;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-evenly;
+    align-items: flex-start;
+}
+
+
+.box4 .status .inner{
+    width: 100%;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content:flex-start ;
+    align-items: center;
+}
+
+
+.box4 .status .inner .num{
+    font-size: 30px;
+    color: rgb(36, 116, 108);
+    margin-right: 2%;
+}
+
+.box4 .status .inner .text {
+    font-size: 17px;
+    color: #888888;
+}
+
+
+.box4 .status .inner .text span{
+    font-weight: bolder;
+    color: black;
+
+}
+
+.box4 .status hr{
+    width: 70%;
+}
+
+.box5{
+    width: 90%;
+    height: 700px;
+    border-radius: 20px;
+    background-image: url(../img/cta-bg.jpg);
+    margin: 2% auto;
+}
+
+.box5 .background{
+    background-color: #00000062;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.box5 .background .inner{
+    width:50%;
+    height: 300px;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.box5 .background .inner i{
+    font-size: 70px;
+}
+
+.box5 .background .inner .row1{
+    font-size: 30px;
+    color: #ffffff;
+}
+
+.box5 .background .inner .row2{
+    font-size: 15px;
+    color: #ffffff;
+    text-align: center;
+}
+
+.box5 .background .inner button{
+    background-color: transparent;
+    border-radius: 41px;
+    border: white 1px solid;
+    color: white;
+    padding: 20px 28px;
+    font-size: 20px;
+    margin-top: 2%;
+}
+
+.box6{
+    width: 100%;
+    height: 800px;
+    background-color: #cdcccc;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.box6 .row1{
+    font-size: 25px;
+    
+}
+
+.box6 .row2{
+    font-size: 12px;
+    color: #888888;
+}
+
+
+.box6 hr{
+    width: 3%;
+    color:rgb(36, 116, 108) ;
+}
+
+.box6 .services{
+    width: 90%;
+    height: 600px;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-around;
+    align-items: center;
+    align-content: stretch;
+
+}
+
+.box6 .services .inner{
+    width: calc(95% / 4);
+    height: 250px;
+    padding: 2%;
+    background-color: #ffffff;
+}
+
+.box6 .services .inner i{
+    font-size: 40px;
+}
+
+.box6 .services .inner .row1{
+    font-size: 30px;
+}
+
+.box6 .services .inner hr{
+    width: 60%;
+}
+
+.box6 .services .inner .link{
+    width: 40%;
+    color: #888888;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.box6 .services .inner .link a{
+    color: #888888;
+}
+
+.box7{
+    width: 100%;
+    height: 600px;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.box7 .row1{
+    font-size: 30px;
+}
+
+.box7 hr{
+    width: 5%;
+}
+
+.box7 .test{
+    width: 95%;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.box7 .person {
+    width: calc(100% / 5);
+    height: 400px ;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-evenly;
+    align-items: self-start;
+    background-color:rgb(36, 116, 108) ;
+    padding: 2%;
+
+}
+
+.box7 .test .person .box1{
+    width: 100%;
+    height: 170px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.box7 .person .box1 img{
+    width: 40%;
+    border-radius: 50%;
+}
+
+.box7 .person .text i{
+    color: aquamarine;
+    font-size: 25px;
+
+}
+
+
+.box8{
+    width: 100%;
+    height: 1080px;
+    background-color: #e7e5e5;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.box8 .row1{
+    font-size: 30px;
+   
+}
+.box8 .row2{
+    color: #888888;
+}
+
+
+.box8 hr{
+    width: 5%;
+    color: aqua;
+}
+
+.box8 .menu{
+    width: 30%;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-evenly;
+    align-items: center;
+    color: black;
+    font-size: 17px;
+}
+
+.box8 .menu a{
+    color: black;
+}
+
+.box8 .menu a:hover{
+    color: cornflowerblue;
+}
+
+
+.box8 .products{
+    width: 94%;
+    height: 880px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: center;
+    align-content: space-between;
+}
+
+.box8 .products .product{
+    width: calc(90% / 3);
+    background-color: #ffffff;
+    padding-bottom: 2%;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.box8 .products .product img{
+    width: 100%;
+
+}
+
+.box8 .products .product .text{
+    width: 80%;
+    height: 40px;
+    display: flex;
+    flex-flow:column nowrap;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.box8 .products .product .text .row1{
+    font-size: 20px;
+    color: black;
+
+}
+
+.box8 .products .product .text .row2{
+    font-size: 12px;
+    color: #888888;
+}
+
+.box9{
+    width: 100%;
+    height: 800px;
+    background-color: #ffffff;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+
+.box9 .row1{
+    font-size: 30px;
+   
+}
+.box9 .row2{
+    color: #888888;
+}
+
+
+.box9 hr{
+    width: 5%;
+    color: aqua;
+}
+
+.box9 .team{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #cdcccc;
+
+}
+
+.box9 .team .member{
+    width: calc(95% / 5);
+    height:445px ;
+    border-radius: 20px;
+    display:flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    align-items: start;
+    padding: 1%;
+    background-color: #ffffff;
+
+}
+
+.box9 .team .member img{
+    width: 100%;
+    height: 300px;
+
+
+}
+
+.box9 .team .member .text{
+    width: 100%;
+    display:flex;
+    flex-flow: column wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+
+.box9 .team .member .social{
+    width: 100%;
+    display:flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.box9 .team .member .social .button{
+    width: 32px;
+    height: 27px;
+    border-radius: 34%;
+    border: #888888 solid 1px;
+    text-align: center;
+    margin-top: 2%;
+}
+
+.pricing{
+    width: 100%;
+    height: 800px;
+    background-color: #ffffff;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+
+.pricing .row1{
+    font-size: 30px;
+   
+}
+.pricing .row2{
+    color: #888888;
+}
+
+
+.pricing hr{
+    width: 5%;
+    color: aqua;
+}
+
+.pricing .plans{
+    width: 100%;
+    height: 600px;
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+
+}
+
+.pricing .plans .plan1{
+    width: 25%;
+    height: 470px;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-evenly;
+    align-items: center;
+    border: 1px rgb(112, 110, 110) solid;
+    border-radius: 20px;
+    box-shadow: #888888 -4px 6px 1px;
+    position: relative;
+    animation: right 2s ease-in-out 0.5s ;
+
+
+}
+
+.pricing .plana{
+    position: relative;
+    animation: right 2s ease-in-out 0.5s ;
+}
+
+@keyframes right {
+    0%{right: 500px;}
+    20%{right: 400px;}
+    40%{right: 200px;}
+    60%{right: 0px;}
+    
+}
+
+.pricing .plans .plan1 .row1{
+    font-size: 20px;
+    color: black;
+}
+
+.pricing .plans .plan1 .icon{
+    width: 20px;
+    height: 20px;
+    border: 1px black solid;
+    border-radius: 50%;
+    background-color: #24746c;
+    padding: 7%;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.pricing .plans .plan1 .icon i{
+    font-size: 30px;
+}
+
+.pricing .plans .plan1 span{
+    color: red;
+    font-size: 25px;
+}
+.pricing .plans .plan1 p{
+    color: #888888;
+}
+
+.pricing .plans .plan1 .true{
+    width: 180px;
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.pricing .plans .plan1 .false{
+    width: 180px;
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+    align-items: center;
+    text-decoration: line-through;
+    color: lightgray;
+}
+
+.pricing .plans .plan1 .button{
+    width: 100px;
+    height: 40px;
+    border-radius: 20px;
+    border: 1px solid black;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.pricing .plans .plan1 .button p{
+    color: #24746c;
+}
+
+
+.pricing .plans .plan2{
+    height: 570px;
+    box-shadow: #888888 1px 10px 1px;
+    animation: top 2s ease-in-out 0.5s ;
+
+}
+
+@keyframes top {
+    0%{top: 500px;}
+    20%{top: 400px;}
+    40%{top: 200px;}
+    60%{top: 0px;}
+    
+}
+
+.pricing .plans .plan3{
+    box-shadow: #888888 6px 6px 1px;
+    position: relative;
+    animation: left 2s ease-in-out 0.5s ;
+
+}
+@keyframes left {
+    0%{left: 500px;}
+    20%{left: 400px;}
+    40%{left: 200px;}
+    60%{left: 0px;}
+    
+}
+
+.pricing .plans .plan1 .button:hover{
+    background-color: #24746c;
+}
+
+.pricing .plans .plan1 .button:hover p{
+    color: black;
+
+}
+
+.faq{
+    width: 100%;
+    height: 400px;
+    background-color: #ffffff;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.faq .lsection{
+    width: 15%;
+    height: 320px;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: start;
+    align-items: start;
+    margin-left: 15%;
+    
+}
+
+.faq .lsection .row1{
+    font-size: 30px;
+    color: black;
+}
+
+.faq .lsection .row1 span{
+    font-weight: bolder;
+}
+
+.faq .lsection .row2{
+    font-size: 15px;
+    color: lightgray;
+}
+
+.faq .rsection{
+    width: 50%;
+    height: 320px;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-evenly;
+    align-items: start;
+}
+
+.faq .rsection .inner{
+    border: 1px solid rgba(143, 137, 137, 0.288);
+    border-radius: 20px;
+    width: 70%;
+    height: 90px;
+    display: flex;
+    flex-flow: row;
+    justify-content: start;
+    align-items: center;
+    padding-right: 2%;
+
+}
+
+.faq .rsection .inner span{
+    color: rgb(36, 136, 108);
+}
+
+.faq .rsection .inner i{
+    margin-left: 7%;
+}
+
+.posts{
+    width: 100%;
+    height: 530px;
+    background-color: lightgray;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.posts .row1{
+    font-size: 30px;
+    color: black;
+}
+
+.posts hr{
+    width: 5%;
+}
+
+.posts .row2{
+    color: whitesmoke;
+    font-size: 15px;
+
+}
+
+.posts .innerbox{
+    width: 100%;
+    height: 350px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.posts .innerbox .post{
+    width: calc(95% / 4);
+    background-color: white;
+    height: 350px;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-around;
+    align-items: start;
+    border: 1px solid gray;
+    border-radius: 20px;
+    padding: 1%;
+    transition: all 1s ease-in-out 0.5s;
+    
+}
+
+.posts .innerbox .post .postpic{
+    width: 100%;
+    height: 140px;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: start;
+    align-items: start;
+
+}
+
+
+.posts .innerbox .post img{
+    width: 100%;
+    height: 150px;
+    border-radius: 20px;
+    margin-top: -4%;
+    transition: all 1s ease-in-out 0.5s;
+
+}
+
+.posts .innerbox .post .title{
+    
+    color: gray;
+    font-size: 15px;
+}
+
+.posts .innerbox .post:hover{
+    transform: scale(1.2);
+}
+
+.posts .innerbox .post:hover img{
+    transform: scale(1.1);
+}
+
+
+.posts .innerbox .post .text{
+    font-size: 20px;
+    color: black;
+    margin-bottom: 7%;
+}
+
+.posts .innerbox .post .person{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-evenly;
+    align-items: start;
+}
+
+
+.posts .innerbox .post .person img{
+    width: 40%;
+    height: 80px;
+    border-radius: 50%;
+}
+
+.posts .innerbox .post .person .row1{
+    font-size: 17px;
+    color: black;
+}
+
+.posts .innerbox .post .person .row2{
+    font-size: 14px;
+    color: gray;
+}
+
+
+.contactbox{
+    margin-top: 2%;
+    width: 100%;
+    height: 1200px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.contactbox .row1{
+    font-size: 30px;
+    color: black;
+}
+
+.contactbox hr{
+    width: 5%;
+}
+
+.contactbox .row2{
+    color: rgb(75, 74, 74);
+    font-size: 15px;
+
+}
+
+.contactbox .innerbox{
+    width: 100%;
+    height: 520px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.contactbox .lsection {
+    background-color: rgb(28, 103, 82);
+    width: 24%;
+    height: 500px;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 20px;
+
+}
+
+.contactbox .lsection .box{
+    background-color: rgb(36, 136, 108);
+    width: 95%;
+    height: 100px;
+    display: flex;
+    flex-flow: row;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 20px;
+
+}
+
+.contactbox .innerbox .lsection .box .icon {
+    font-size: 40px;
+    width: 30%;
+    height:  100px;
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.contactbox .innerbox .lsection .box .text {
+    font-size: 40px;
+    width: 70%;
+    height:  100px;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: start;
+
+}
+
+.contactbox .innerbox .rsection {
+    width: 70%;
+    height: 500px;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 20px;
+    border: 1px rgba(0, 0, 0, 0.122) solid;
+
+}
+
+.contactbox .innerbox .rsection .box{
+    width: 90%;
+    height: 70px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 20px;
+
+}
+
+.contactbox .innerbox .rsection .box .size1{
+    width: 40%;
+    border-radius: 20px;
+    height: 70px;
+    font-size: 20px;
+    padding-left: 1%;
+}
+
+
+.contactbox .innerbox .rsection .size2{
+    width: 90%;
+    border-radius: 20px;
+    height: 70px;
+    font-size: 20px;
+    padding-left: 1%;
+
+}
+
+.contactbox .innerbox .rsection .size3{
+    border-radius: 20px;
+    width: 90%;
+    height: 200px;
+    font-size: 20px;
+    padding-left: 1%;
+    text-align: top;
+
+}
+
+.contactbox .innerbox .rsection .button{
+    padding: 10px 30px;
+    border-radius: 20px;
+    color: whitesmoke;
+    background-color: #24746c;
+    transition: all 1s;
+}
+
+.contactbox .innerbox .rsection .button:hover{
+    background-color: #0f3430;
+    transform: scale(1.1);
+
+}
+
+
+
+/* trial */
+
+
+.footer{
+    margin-top: 2%;
+    width: 100%;
+    height: 450px;
+    background-color: #24746c;
+    color: white;
+    display: flex;
+    flex-flow: row;
+    justify-content: space-evenly;
+
+}
+
+.f1 .icons{
+    width: 154px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+
+    
+}
+
+.f1 .icons a{
+    color: rgb(255, 255, 255);
+}
+
+.footer .foot a{
+    color: white;
+    text-decoration: none;
+}
+.foot{
+    width: calc(90% / 6);
+    height: 300px;
+    color: white;
+    margin-top: 2%;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: inherit;
+    align-items: flex-start;
+
+
+}
+
+.f1 img{
+    width: 50%;
+    height: 30px;
+}
+
+.webs{
+    height: 106px;
+    text-align: center;
+    color: white;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: -9%;
+}
+
+.webs .icons{
+    width: 154px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+
+    
+}
+
+.webs .icons a{
+    color: aquamarine;
+}

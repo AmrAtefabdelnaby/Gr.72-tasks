@@ -1,0 +1,404 @@
+*{
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Anton', sans-serif;
+    font-family: 'Bebas Neue', sans-serif;
+    font-family: 'DM Serif Display', serif;
+}
+
+.contactheader{
+    width: 100%;
+    height: 40px;
+    background-color:rgb(30, 97, 90) ;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+
+}
+body{
+    background-color: rgb(244, 241, 241);
+}
+.contact{
+    width: 30%;
+    height: 20px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-left: 7%;
+}
+
+.contactheader .contact .email{
+    width: 40%;
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    margin-left: 10%;
+    text-decoration: none;
+}
+
+a{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.contactheader .contact .phone{
+    width: 40%;
+    display: flex;
+    flex-flow: row nowrap;
+    margin-left: 1%;
+    align-items: center;
+
+
+}
+
+.contactheader .social{
+    width: 10%;
+    height: 20px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-right: 7%;
+}
+
+.nav{
+    width: 100%;
+    height: 60px;
+    background-color: rgb(36, 116, 108);
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.nav .logo{
+    width: 17%;
+    height: 50px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav .logo img{
+    width: 40%;
+    height: 50px;
+}
+
+.nav .pages{
+    width: 50%;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.nav .pages a:hover{
+    background-color: #888888;
+    padding: 2%;
+}
+
+.dropbtn {
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    background-color: rgb(36, 116, 108);
+  }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+  }
+  
+  .dropdown-content a {
+    color: rgb(12, 11, 11);
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+    
+  .dropdown:hover .dropdown-content {
+    display: block;
+}
+  
+  .dropdown:hover .dropbtn {
+    background-color: #888888;
+    text-align: center;
+}
+
+
+.box1{
+    margin-top: 3%;
+    width: 100%;
+    height: 300px;
+    background-color: rgb(36, 116, 108);
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.box1 .row1{
+    font-size: 30px;
+    color: #ffffff;
+}
+
+
+.box1 .row2{
+    font-size: 15px;
+    color: #ffffff;
+}
+
+.box1 .inner{
+    width: 40%;
+    height: 200px;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: start;
+    align-items: center;
+    text-align: center;
+}
+
+.box2{
+    background-color: rgb(199, 195, 195);
+    width: 100%;
+    height: 50px;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.box2 .inner{
+    width: 70%;
+    height: 50px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: start;
+    align-items: center;
+}
+
+.box2 .inner .home{
+    color: rgb(36, 116, 108);
+    
+}
+.box2 .inner p{
+color: red;
+}
+
+.box2 .inner .blog{
+    color: black;
+}
+
+.box3{
+    background-image: url(../img/portfolio/books-1.jpg);
+    width: 63%;
+    height: 750px;
+    margin: 2% auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+    animation: slide 2s ease-in-out 0.5s;
+    position: relative;
+}
+
+.border{
+    overflow: hidden;
+}
+
+@keyframes slide {
+    0%{top: 750px;}
+    20%{top: 550px;}
+    40%{top: 350px;}
+    60%{top: 150px;}
+    80%{top: 0px;}
+}
+    
+
+.box3 i{
+    font-size: 40px;
+}
+
+.box4{
+    margin: auto;
+    width: 90%;
+    height: 400px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: start;
+}
+
+.box4 .lsection{
+    width: 55%;
+    height: 400px;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-evenly;
+    align-items: start;
+}
+
+.box4 .lsection .row1{
+    font-size: 30px;
+    color: black;
+}
+
+
+.box4 .lsection .row2{
+    font-size: 15px;
+    color: black;
+}
+
+
+.box4 .lsection .row3{
+    font-size: 15px;
+    text-align: center;
+}
+
+.box4 .lsection .row4{
+    width: 34%;
+    height: 76px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.box4 .lsection .row4 img{
+    width: 36%;
+    height: 88px;
+    border-radius: 50%;
+}
+
+.box4 .rsection{
+    width: 28%;
+    height: 300px;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    align-content: flex-start;
+    padding: 1%;
+
+}
+
+.box4 .rsection .row1{
+    font-size: 30px;
+    color: black;
+}
+
+.box4 .rsection hr{
+    width: 20%;
+    height: 2px;
+    color: rgb(36, 116, 108);
+}
+
+.box4 .rsection .row2{
+    font-size: 14px;
+    color: #918e8e64;
+}
+
+.box4 .rsection .row3{
+    font-size: 20px;
+    color: #000000;
+}
+
+.box4 .rsection .button{
+    width: 150px;
+    height: 100px;
+    background-color: rgb(36, 116, 108);
+    color: white;
+    border-radius: 20px;
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2%;
+    padding: 10px 20px;
+}
+
+
+.footer{
+    margin-top: 2%;
+    width: 100%;
+    height: 450px;
+    background-color: #24746c;
+    color: white;
+    display: flex;
+    flex-flow: row;
+    justify-content: space-evenly;
+
+}
+
+.f1 .icons{
+    width: 154px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+
+    
+}
+
+.f1 .icons a{
+    color: rgb(255, 255, 255);
+}
+
+.footer .foot a{
+    color: white;
+    text-decoration: none;
+}
+.foot{
+    width: calc(90% / 6);
+    height: 300px;
+    color: white;
+    margin-top: 2%;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: inherit;
+    align-items: flex-start;
+
+
+}
+
+.f1 img{
+    width: 50%;
+    height: 30px;
+}
+
+.webs{
+    height: 53px;
+    text-align: center;
+    color: white;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: -4%;
+}
+
+.webs .icons{
+    width: 154px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+
+    
+}
+
+.webs .icons a{
+    color: aquamarine;
+}
