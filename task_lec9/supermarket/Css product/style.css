@@ -1,0 +1,238 @@
+*{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    box-sizing: border-box;
+}
+.container{
+    padding: 1%;
+}
+.image-container{
+    width: 100%;
+    height: 400px;
+}
+
+.header{
+    padding-top: 1px;
+  background-color: rgb(30, 116, 108);
+  height: 120px;
+}
+
+.inner-header{
+    width: 78%;
+    margin: auto;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header .header1{
+    width: 100%;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header .header1 .content{
+    color: white;
+    width: 11%;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header .header1 .content a{
+    color: white;
+}
+
+.header .header1 .content p i{
+    margin-right: 4px;
+}
+
+
+.header .header1 p{
+    color: white;
+    display: flex;
+    width: 15%;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px;
+}
+
+.header .header2{
+    width: 100%;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header .header2 img{
+    width: 38%;
+    height: 50px;
+}
+
+.header .header2 .logo{
+    width: 16%;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.header .header2 .fa-search{
+    height: 40px;
+}
+
+.header .header2 .icons .inner{
+    width: 30%;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.clear{
+    clear: both;
+}
+
+.navbar{
+    display: flex;
+    flex-flow:row ;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+
+}
+
+.navbar ul{
+    width: 75%;
+    display: flex;
+    flex-flow:row ;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.navbar ul li:hover{
+    transform: scale(1.1);
+    box-shadow: 10px 0px 0px 0.5 black;
+}
+
+.outter-header{
+    position: fixed;
+    top: 0;
+    width: 100%
+}
+ .container{
+    border: 1px black solid;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    align-items: start;
+    margin-top: 14%;
+ }
+
+ .container .left-section{
+    display: flex;
+    flex-flow: column;
+    justify-content: flex-start;
+    align-items: center;
+    height: 500px;    
+    background-color: white;
+ }
+
+ .container .left-section img{
+    width: 100%;
+ }
+
+ .container .middle-section{
+    padding: 2%;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: start;
+    height: 500px;    
+ }
+
+ .container .middle-section .model{
+    font-size: 12px;
+    font-weight: lighter;
+ }
+
+
+ 
+.footer{
+    margin-top: 2%;
+    width: 100%;
+    height: 450px;
+    background-color: #24746c;
+    color: white;
+    display: flex;
+    flex-flow: row;
+    justify-content: space-evenly;
+
+}
+
+.f1 .icons{
+    width: 154px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+
+    
+}
+
+.f1 .icons a{
+    color: rgb(255, 255, 255);
+}
+
+.footer .foot a{
+    color: white;
+    text-decoration: none;
+}
+.foot{
+    width: calc(90% / 6);
+    height: 300px;
+    color: white;
+    margin-top: 2%;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: inherit;
+    align-items: center;
+    align-content: space-around;
+
+
+
+}
+
+.f1 img{
+    height: 120px;
+}
+
+.webs{
+    height: 106px;
+    text-align: center;
+    color: white;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: -8%;
+}
+
+.webs .icons{
+    width: 154px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+
+    
+}
+
+.webs .icons a{
+    color: aquamarine;
+}
+
