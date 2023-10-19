@@ -1,0 +1,326 @@
+*{
+    box-sizing: border-box;
+}
+.nav-home{
+    width: 100%;
+    background-color: #f8f9fa;
+    z-index: 100;
+}
+
+.navbar-brand img{
+    width: 89px;
+    height: 48px;
+}
+
+.header-menu .nav li:hover{
+    box-shadow: inset 0px -2px 0px 0px #ed504f ;
+}
+
+.cart-number{
+    right: 31px;
+    top: 11px;
+    position: absolute;
+    width: 12px;
+    height: 11px;
+    background-color: #ed5061;
+    border-radius: 50%;
+}
+
+.our-font{
+    font-family: 'Acme', sans-serif;
+}
+
+.container1 .card .card-header div p span{
+    color: #ed5061;
+}
+
+.container1 .card-header{
+    background-color: #f8f9fa;
+}
+
+.container1 .card-body{
+    width: 1294px;
+    height: 389px;
+    overflow: hidden !important;
+    padding: 0%;
+}
+
+.container1 .card-body .img1{
+    height: 390px;
+    width: 370px;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    
+} 
+
+.container1 .card-body .img2{
+    height: 390px;
+    width: 370px;
+    position: absolute;
+    top: 0%;
+    left: 370px;
+    
+} 
+
+.container1 .card-body .img3{
+    height: 390px;
+    width: 370px;
+    position: absolute;
+    top: 0%;
+    left: 740px;
+    
+} 
+
+.container1 .card-body .img4{
+    height: 390px;
+    width: 370px;
+    position: absolute;
+    top: 0%;
+    left: 1110px;
+    
+    
+} 
+
+.container1 .card-body .img5{
+    height: 390px;
+    width: 370px;
+    position: absolute;
+    top: 0%;
+    left: 1480px;
+    
+    
+} 
+
+.container1 .card-body .img6{
+    height: 390px;
+    width: 370px;
+    position: absolute;
+    top: 0%;
+    left: 1850px;
+    
+    
+} 
+
+.container1 .card-body ul{
+    height: 390px;
+    width: 2220px;
+    position: relative;
+    animation-name: slider;
+    animation-duration: 30s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+
+}
+
+
+
+@keyframes slider {
+    0%{left: 0;}
+    20%{ left: -200px;}
+    40%{ left: -400px;}
+    60%{left: -600px;}
+    80%{left: -726px;}
+    90%{left: -926px;}
+}
+
+.container2 .inner-box{
+    background-color: rgb(236 74 93);
+    height: 280px;
+    color: aliceblue;
+    margin: auto;
+    
+}
+
+.container2 .inner-box .buttons .btn{
+    width: 85px;
+
+}
+
+.container2 .inner-box .buttons{
+
+    width: 40%;
+}
+
+.our-team .team-member .card img{
+    transition: all 2s ease-in-out;
+}
+
+.our-team .team-member .card img:hover{
+    border-radius: 20px;
+}
+
+
+.Categories .card img{
+    min-height: 265px;
+    transition: all 1s ease-in-out;
+
+}
+
+.Categories .card:hover img{
+    transform: scale(1.1);
+}
+
+.trending .trends .card .inner-card .btn{
+    width: 150px ;
+    height: 46px ;
+    margin: 0%;
+}
+
+.trending .trends .card img{
+    margin-bottom: 2%;
+    border-radius: 50%;
+    min-width: 300px;
+    min-height: 316px;
+    transition: all 2s ease-in-out;
+}
+
+.trending .trends .card img:hover{
+    border-radius: 20px;
+}
+
+.trending .trends .card .card-body .btn{
+    margin-left: 13%;
+}
+
+.our-team .team-member .card img{
+    border-radius: 20px;
+}
+
+.our-team .team-member .card img{
+    transition: all 2s ease-in-out;
+}
+
+.our-team .team-member .card img:hover{
+    transform: scale(1.1);
+}
+
+.footer{
+    z-index: 120;
+    margin-top: 2%;
+    width: 100%;
+    height: 450px;
+    background-color: #f8f9fa;
+    color: black;
+    display: flex;
+    flex-flow: row;
+    justify-content: space-evenly;
+}
+
+.f1 .icons{
+    width: 154px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+
+    
+}
+
+.f1 .icons a{
+    color: black;
+}
+
+.footer .foot a{
+    color: black;
+    text-decoration: none;
+}
+.foot{
+    width: calc(90% / 6);
+    height: 300px;
+    color: black;
+    margin-top: 2%;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: inherit;
+    align-items: center;
+    align-content: space-around;
+
+
+
+}
+
+.f4 h3{
+    width: 250px;
+}
+
+.f1 img{
+    height: 120px;
+}
+
+.webs{
+    height: 106px;
+    text-align: center;
+    color: black;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: -8%;
+}
+
+.webs .icons{
+    width: 154px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+
+    
+}
+
+.webs .icons a{
+    color: black;
+}
+
+.product-page .right-section{
+    z-index: 90;
+    height: 563px;
+}
+
+.product-page .left-section img{
+    padding: 0%;
+    transition: all 2s ease-in-out;
+
+}
+
+.product-page .left-section img:hover{
+    transform: scale(1.1);
+}
+
+.product-page .right-section .vat{
+    font-size: 12px;
+    background-color: rgb(237, 80, 97);
+}
+
+.product-page .right-section .stars .write-review{
+    margin-right: 3%;
+}
+
+.product-page .right-section .product-color .color{
+    width: 20px ;
+    height: 20px;
+    margin-left: 20px;
+    border: 1px solid rgb(237, 80, 97);
+}
+
+.product-page .right-section .size .size-box .btn{
+    width: 50px;
+    height: 38px;
+    border: rgb(236 74 93) 1px solid;
+    border-radius: 20px;
+    margin-top: 1%;
+
+}
+
+.product-page .right-section .add-to-cart .basket{
+    background-color: rgb(237, 80, 97);
+    color: #f8f9fa;
+}
+
+.product-page .right-section .add-to-cart .share{
+    margin-right: 3%;
+}
+
+.product-page .right-section .add-to-favourites .basket{
+    background-color: rgb(237, 80, 97);
+    color: #f8f9fa;
+}
